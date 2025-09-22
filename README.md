@@ -19,4 +19,26 @@ ii)open gitbash (we are in the root folder of our system denoted by "~" )<br>git
 1)Clone-Cloning repository to local machine (laptop)<br>
 i.e to duplicate a github repository in our local system (personal laptop ,PC)<br>
 git clone <project link><br>
-project link -got repsoitory click code https there is a link below
+project link -got repsoitory click code https there is a link below<br>
+2.Status-what is the status of our code<br>
+git status<br>
+note:it shoud be upto date with main<br>
+if me modify something in the readme file in vs code git status will show an error because the github readme and vscode readme are not same .<br>
+therefore to commit the chagnes made in vscode in the github readme there is a two step process:<br>
+1)ADD:adds new or changed files to your git staging area (i.e files are ready to commit ) git add <file-name>
+<br> 
+2)COMMIT:record of change git commit -m(type the commit name or message) 
+<br>
+Git status:1)untracked files(files that git doesnt track) 2)modified files(changes made in editor) 3)staged files are added ready for commit) 4)unmodified(no changes)
+<br>
+flow :<br>
+file is either untracked or modified<br>
+after add file becomes staged i.e ready to commit<br>
+after commit (unmodified) i.e no changes remaining to commit up to date
+
+<br>
+Practice in your vscode github learning folder create a new html file use add and commit and then check git status .
+<br>
+note:you will notice that it mentions that your are 1 commit ahead of origin main means innvs code w ehave commited not on github.Therefore we cannot see the ne cahnges in the github repo .<br>
+Push command : local repo (changes made in laptop is pushed onto remote (github))<br>
+run git push origin main    -(vs code)
