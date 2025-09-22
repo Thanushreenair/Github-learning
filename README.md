@@ -42,3 +42,6 @@ Practice in your vscode github learning folder create a new html file use add an
 note:you will notice that it mentions that your are 1 commit ahead of origin main means innvs code w ehave commited not on github.Therefore we cannot see the ne cahnges in the github repo .<br>
 Push command : local repo (changes made in laptop is pushed onto remote (github))<br>
 run git push origin main    -(vs code)
+<br>
+now if we have made a local repoistory (build a folder in our laptop ) and we want to use git on it , then we use git init
+
